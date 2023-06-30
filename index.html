@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- bootstrap 4.3 -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<!-- bootstrap 5.3 -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> -->
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script>
+        $(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+    </script>
+</head>
+<body>
+    <nav class="navbar1 flex ">
+        <div class="logo">
+            <img src="assets/asset 0.svg" class="logo-img" alt="">
+        </div>
+        <ul class="nav-list flex">
+            <a href="" class="hover-link"><li >Company
+                <ul class="drop-list">
+                    <li class="drop-subitem"><a href="#">History</a></li>
+                    <li class="drop-subitem"><a href="#">Meet the team</a></li>
+                    <li class="drop-subitem"><a href="#">Testimonials</a></li>
+                  </ul>
+            </li></a>
+            <a href=""><li class="hover-link">Services</li></a>
+            <a href=""><li class="hover-link">Blog</li></a>
+            <a href=""><li class="hover-link">Look Inside</li></a>
+            <a href=""><li class="hover-link">Careers</li></a>
+            <a href=""><li class="hover-link">Contact</li></a>
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="main-contain flex">
+            <h1 class="heading">
+            360° Digital Solutions Under One Roof
+            </h1>
+            <span class="sub-head">We make good engineers. They, in turn, make good software.</span>
+            <a href="" class="first-btn" type="button"> Let's talk</a>
+        </div>
+    </div>
+    <div class="clients flex container1">
+        <div class="client-head">
+            <h2 class="client-heading">Our Clients</h2>
+        </div>
+        <div class="slider">
+            <div class="slide-track">
+              <div class="slide">
+                <img class="slider-img"  src="assets/asset 1.webp" alt="">
+              </div>
+              <div class="slide">
+                <img class="slider-img" src="assets/asset 2.webp" alt="">
+              </div>
+              <div class="slide">
+                <img class="slider-img" src="assets/asset 3.webp" alt="">
+              </div>
+              <div class="slide">
+                <img class="slider-img" src="assets/asset 4.webp" alt="">
+              </div>
+              <div class="slide">
+                <img class="slider-img" src="assets/asset 5.webp" alt="">
+              </div>
+              <div class="slide">
+                <img class="slider-img" src="assets/asset 6.webp" alt="">
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="container1 intro-block flex">
+        <div class="heading-1">
+            <h3 class="heading1-head"> What We Offer</h3>
+        </div>
+        <div class="text-block">
+            <p class="para-text">Nextbridge is a software development company based in Lahore, Pakistan that is devoted to providing innovative software solutions to startups, SMBs, and large enterprises. Partnering with us will help you obtain a competitive edge in the market through high-quality custom development services. The most influential design, business, and technology talents that exist in the business will be made available to you. You demonstrate your idea and together we will learn about the right audiences, test solutions, and execute them based on the right standards.</p>
+        </div>
+    </div>
+    <div class="card-block container2 flex">
+        <div class="tech-card flex">
+            <img class="card-img" src="assets/asset 7.svg" alt="">
+            <h4 class="card-head">Custom Software Development</h4>
+            <div class="overlay">
+                <div class="text">It doesn't matter if you have a greenfield product or an existing product, we are your single source for 360° digital solutions.</div>
+            </div>
+        </div>
+        <div class="tech-card flex">
+            <img class="card-img" src="assets/asset 8.webp" alt="">
+            <h4 class="card-head">Web Development</h4>
+            <div class="overlay">
+                <div class="text">It doesn't matter if you have a greenfield product or an existing product, we are your single source for 360° digital solutions.</div>
+            </div>
+        </div>
+        <div class="tech-card flex">
+            <img class="card-img" src="assets/asset 9.webp" alt="">
+            <h4 class="card-head">Mobile Development</h4>
+            <div class="overlay">
+                <div class="text">It doesn't matter if you have a greenfield product or an existing product, we are your single source for 360° digital solutions.</div>
+            </div>
+        </div>
+        <div class="tech-card flex">
+            <img class="card-img" src="assets/asset 10.webp" alt="">
+            <h4 class="card-head">UI/UX Design</h4>
+            <div class="overlay">
+                <div class="text">It doesn't matter if you have a greenfield product or an existing product, we are your single source for 360° digital solutions.</div>
+            </div>
+        </div>
+        <div class="tech-card flex">
+            <img class="card-img" src="assets/asset 10.webp" alt="">
+            <h4 class="card-head">DevOps</h4>
+            <div class="overlay">
+                <div class="text">It doesn't matter if you have a greenfield product or an existing product, we are your single source for 360° digital solutions.</div>
+            </div>
+        </div>
+        <div class="tech-card flex">
+            <img class="card-img" src="assets/asset 11.webp" alt="">
+            <h4 class="card-head">Support & Maintinance</h4>
+            <div class="overlay">
+                <div class="text">It doesn't matter if you have a greenfield product or an existing product, we are your single source for 360° digital solutions.</div>
+            </div>
+        </div>
+    </div>
+    <div class="container1 intro-block flex">
+        <div class="heading-1">
+            <h3 class="heading1-head">Nextbridge Portfolio</h3>
+        </div>
+        <div class="text-block">
+            <p class="para-text">All the immense knowledge we have attained since 1993 is applied to the projects. Check out our deployed ventures to know our services, industries, and capabilities. View some of our clients, the work we have done in the past, and the solutions we have provided to help them grow. Delivering great software and services is our passion. We provide you with tailor-made solutions, integrated with cutting-edge technologies like Ruby, PHP, Java, MERN, MEAN, LAMP, Serverless Stacks, Flutter, and more. No matter what industry you’re in, we’ll solve your problems.</p>
+        </div>
+    </div>
+    <div class="card-block container1 flex">
+        <div class="tech-card1 flex">
+            <img class="card-img1" src="assets/asset 12.webp" alt="">
+            
+            <div class="overlay1">
+                <div class="overlay-sub">
+                    <p class="overlay-text"> Arab Aviation Summit </p>
+                    <div class="overlay-img">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path class="cls-1" d="M24,48A24,24,0,1,1,48,24,24,24,0,0,1,24,48ZM24,1A23,23,0,1,0,47,24,23,23,0,0,0,24,1Z"></path><circle class="cls-1" cx="24" cy="24" r="8.25"></circle><path class="cls-1" d="M24,35.1c-7.17,0-13.88-3.94-18.42-10.83L5.4,24l.18-.27C10.12,16.84,16.83,12.9,24,12.9s13.88,3.94,18.42,10.83l.18.27-.18.27C37.88,31.16,31.17,35.1,24,35.1ZM6.6,24C10.94,30.43,17.27,34.1,24,34.1S37.06,30.43,41.4,24C37.06,17.57,30.73,13.9,24,13.9S10.94,17.57,6.6,24Z"></path></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tech-card1 flex">
+            <img class="card-img1" src="assets/asset 13.webp" alt="">
+            <div class="overlay1">
+                <div class="overlay-sub">
+                    <p class="overlay-text"> Beaconhouse </p>
+                    <div class="overlay-img">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path class="cls-1" d="M24,48A24,24,0,1,1,48,24,24,24,0,0,1,24,48ZM24,1A23,23,0,1,0,47,24,23,23,0,0,0,24,1Z"></path><circle class="cls-1" cx="24" cy="24" r="8.25"></circle><path class="cls-1" d="M24,35.1c-7.17,0-13.88-3.94-18.42-10.83L5.4,24l.18-.27C10.12,16.84,16.83,12.9,24,12.9s13.88,3.94,18.42,10.83l.18.27-.18.27C37.88,31.16,31.17,35.1,24,35.1ZM6.6,24C10.94,30.43,17.27,34.1,24,34.1S37.06,30.43,41.4,24C37.06,17.57,30.73,13.9,24,13.9S10.94,17.57,6.6,24Z"></path></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tech-card1 flex">
+            <img class="card-img1" src="assets/asset 14.webp" alt="">
+            <div class="overlay1">
+                <div class="overlay-sub">
+                    <p class="overlay-text"> Agent Pet</p>
+                    <div class="overlay-img">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path class="cls-1" d="M24,48A24,24,0,1,1,48,24,24,24,0,0,1,24,48ZM24,1A23,23,0,1,0,47,24,23,23,0,0,0,24,1Z"></path><circle class="cls-1" cx="24" cy="24" r="8.25"></circle><path class="cls-1" d="M24,35.1c-7.17,0-13.88-3.94-18.42-10.83L5.4,24l.18-.27C10.12,16.84,16.83,12.9,24,12.9s13.88,3.94,18.42,10.83l.18.27-.18.27C37.88,31.16,31.17,35.1,24,35.1ZM6.6,24C10.94,30.43,17.27,34.1,24,34.1S37.06,30.43,41.4,24C37.06,17.57,30.73,13.9,24,13.9S10.94,17.57,6.6,24Z"></path></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tech-card1 flex" >
+            <img class="card-img1" src="assets/asset 15.png" alt="">
+            <div class="overlay1">
+                <div class="overlay-sub">
+                    <p class="overlay-text"> Taleemly </p>
+                    <div class="overlay-img">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path class="cls-1" d="M24,48A24,24,0,1,1,48,24,24,24,0,0,1,24,48ZM24,1A23,23,0,1,0,47,24,23,23,0,0,0,24,1Z"></path><circle class="cls-1" cx="24" cy="24" r="8.25"></circle><path class="cls-1" d="M24,35.1c-7.17,0-13.88-3.94-18.42-10.83L5.4,24l.18-.27C10.12,16.84,16.83,12.9,24,12.9s13.88,3.94,18.42,10.83l.18.27-.18.27C37.88,31.16,31.17,35.1,24,35.1ZM6.6,24C10.94,30.43,17.27,34.1,24,34.1S37.06,30.43,41.4,24C37.06,17.57,30.73,13.9,24,13.9S10.94,17.57,6.6,24Z"></path></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tech-card1 flex">
+            <img class="card-img1" src="assets/asset 16.png" alt="">
+            <div class="overlay1">
+                <div class="overlay-sub">
+                    <p class="overlay-text"> Group Captain</p>
+                    <div class="overlay-img">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path class="cls-1" d="M24,48A24,24,0,1,1,48,24,24,24,0,0,1,24,48ZM24,1A23,23,0,1,0,47,24,23,23,0,0,0,24,1Z"></path><circle class="cls-1" cx="24" cy="24" r="8.25"></circle><path class="cls-1" d="M24,35.1c-7.17,0-13.88-3.94-18.42-10.83L5.4,24l.18-.27C10.12,16.84,16.83,12.9,24,12.9s13.88,3.94,18.42,10.83l.18.27-.18.27C37.88,31.16,31.17,35.1,24,35.1ZM6.6,24C10.94,30.43,17.27,34.1,24,34.1S37.06,30.43,41.4,24C37.06,17.57,30.73,13.9,24,13.9S10.94,17.57,6.6,24Z"></path></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tech-card1 flex">
+            <img class="card-img1" src="assets/asset 17.png" alt="">
+            <div class="overlay1">
+                <div class="overlay-sub">
+                   <p class="overlay-text"> NextHRM </p>
+                    <div class="overlay-img">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path class="cls-1" d="M24,48A24,24,0,1,1,48,24,24,24,0,0,1,24,48ZM24,1A23,23,0,1,0,47,24,23,23,0,0,0,24,1Z"></path><circle class="cls-1" cx="24" cy="24" r="8.25"></circle><path class="cls-1" d="M24,35.1c-7.17,0-13.88-3.94-18.42-10.83L5.4,24l.18-.27C10.12,16.84,16.83,12.9,24,12.9s13.88,3.94,18.42,10.83l.18.27-.18.27C37.88,31.16,31.17,35.1,24,35.1ZM6.6,24C10.94,30.43,17.27,34.1,24,34.1S37.06,30.43,41.4,24C37.06,17.57,30.73,13.9,24,13.9S10.94,17.57,6.6,24Z"></path></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="company-intro">
+        <div class="heading-1">
+            <h3 class="heading1-head">Why Nextbridge</h3>
+        </div>
+        <div class="company-intro1 container1 flex">
+            <div class="intro-left">
+                <img src="assets/asset 18.jpeg" class="intro-img" alt="">
+            </div>
+            <div class="intro-right">
+                <p class="intro-text">
+                    As an innovative software development company, building powerful digital solutions and experiences is what we do. It is not just our expertise that differentiates us from others, but also our relationship with clients. Our approach is cross-functional collaboration and constant improvement.
+                </p>
+                <p class="intro-text">Our investment in clients means they don’t just receive a team of highly experienced developers, but also the support and insights of accomplished engineers and business analysts.</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="deliverable container1 m-top">
+        <div class="heading-1">
+            <h3 class="heading1-head">Delivering IT Solutions Since 1993</h3>
+        </div>
+        <div class="text-block">
+            <p class="para-text">At Nextbridge, we strive to be a reliable software development company offering transparent and efficient collaboration models. Our goal is to make sure that you get what you expect, on time, and within budget.</p>
+            <p class="para-text">Don’t waste time searching for a software development company online — take advantage of our top talent.</p>
+        </div>
+    </div>
+    <div class="reveiws container1 m-top">
+        <div class="heading-1">
+            <h3 class="heading1-head">Recommended by 97% of Our Customers</h3>
+        </div>
+        <!-- carousel slider -->
+    </div>
+    <div class="ceo container1 m-top">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-block w-100">
+                    <div class="ceo-div flex">
+                    <div class="ceo-intro flex">
+                        <img  class="ceo-img" src="assets/asset 19.webp" alt="">
+                        <h3 class="ceo-name">Hassan Tariq</h3>
+                        <span class="ceo-occupation">GMIT</span>
+                    </div>
+                    <div class="ceo-desc">
+                        <p>
+                            Although selected for the lowest price on a detailed specification of integrated mobile application, Nextbridge proved to be a bridge for getting our problem solved with achieving high standard of quality and meeting the timelines.
+                        </p>
+                    </div>
+                <!-- <img src="assets/asset 15.png" class="d-block w-100" alt="..."> -->
+                </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-block w-100">
+                    <div class="ceo-div flex">
+                    <div class="ceo-intro flex">
+                        <img  class="ceo-img" src="assets/asset 19.webp" alt="">
+                        <h3 class="ceo-name">Qasim Arshad</h3>
+                        <span class="ceo-occupation">CEO</span>
+                    </div>
+                    <div class="ceo-desc">
+                        <p>
+                            We are overjoyed with the service and the product that Nextbridge has provided in creating our website. They actually took the time to understand the business, and catered to our every need. They kept their channels of communication open at all times, making sure we were satisfied with the final product. Thank you again for the job well done. 10/10 would use again.
+                        </p>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+    <div class="faq-section container1">
+        <div class="heading-1">
+            <h3 class="heading1-head">FAQS</h3>
+        </div>
+    </div>
+    <!-- //accordion -->
+    
+<div class="container1">
+    <!-- <div class="row"> -->
+    <!-- <div class="col-md-3"> -->
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default b-1">
+            <div class="panel-heading mypanel" role="tab" id="headingOne">
+                 <h4 class="panel-title ">
+            <a class="accordian-link1" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                How long does it take to develop software with you?
+            </a>
+          </h4>
+    
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body"><p>We need to know your project needs first in order to tell you the exact time that is required to develop your software. To tell you, it is possible to run a project from start to finish in a couple of weeks, but it’s also possible to run a project for several years. For a more precise answer, we suggest you contact a member of our business development team. They will be able to provide you with the most accurate estimate.</p></div>
+            </div>
+        </div>
+        <div class="panel panel-default b-1">
+            <div class="panel-heading mypanel" role="tab" id="headingTwo">
+                 <h4 class="panel-title">
+            <a class="collapsed accordian-link1" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What will it cost me to develop a product with you?
+            </a>
+          </h4>
+    
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body"><p>To determine the project development cost, we must first determine the scope of work. We then estimate the nature of work and labor involved. We review the hourly rates of the employees who are hired and then send you a spreadsheet.</p></div>
+            </div>
+        </div>
+        <div class="panel panel-default b-1">
+            <div class="panel-heading mypanel" role="tab" id="headingThree">
+                 <h4 class="panel-title">
+            <a class="collapsed accordian-link1" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Do I need to be tech-savvy to work with you?
+            </a>
+          </h4>
+    
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body"><p>It doesn’t matter how much technical knowledge you have. If something is unclear or ambiguous, we will explain it to you.</p> </div>
+            </div>
+        </div>
+
+        <!-- 4 four -->
+        <div class="panel panel-default b-1">
+            <div class="panel-heading mypanel" role="tab" id="headingFour">
+                 <h4 class="panel-title">
+            <a class="collapsed accordian-link1" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                To begin with, what information do you need from me regarding the development?
+            </a>
+          </h4>
+    
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                <div class="panel-body"><p>All information will be taken from you during our 360-degree review. Answer a few questions, share wireframes if applicable, and tell us the scope, or any business challenges you’d like to be resolved.</p> </div>
+            </div>
+        </div>
+        <!-- 5 Five -->
+        <div class="panel panel-default b-1">
+            <div class="panel-heading mypanel" role="tab" id="headingFive">
+                 <h4 class="panel-title">
+            <a class="collapsed accordian-link1" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                How experienced are your developers?
+            </a>
+          </h4>
+    
+            </div>
+            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                <div class="panel-body"><p>We have junior, mid-level, and senior engineers. You can choose the engineer who aligns best with your project requirements. Experience level won’t be an issue at our software development company.</p> </div>
+            </div>
+        </div>
+        <!-- 6 Six -->
+        <div class="panel panel-default b-1">
+            <div class="panel-heading mypanel" role="tab" id="headingSix">
+                 <h4 class="panel-title">
+            <a class="collapsed accordian-link1" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Do you guarantee product quality?
+            </a>
+          </h4>
+    
+            </div>
+            <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                <div class="panel-body"><p>Well, we do not begin the development of the scope of the project until it is clear enough. To test your product early, we like to design wireframes or mockups. From the very beginning, we ensure quality control by working with the development team to verify that the standards are being met. The key to success is communication, so we arrange daily or weekly scrum meetings and stay accessible on product development tools at all times.</p> </div>
+            </div>
+        </div>
+        <!-- 7 Seven -->
+        <div class="panel panel-default b-1">
+            <div class="panel-heading mypanel" role="tab" id="headingSeven">
+                 <h4 class="panel-title">
+            <a class="collapsed accordian-link1" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                Do you practice agile methodology?
+            </a>
+          </h4>
+    
+            </div>
+            <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                <div class="panel-body"><p>Yes, we incorporate agile methodology in our software development process in an attempt to make engineering more flexible and efficient.</p> </div>
+            </div>
+        </div>
+        <!-- 8 Eight -->
+        <div class="panel panel-default b-1">
+            <div class="panel-heading mypanel" role="tab" id="headingEight">
+                 <h4 class="panel-title">
+            <a class="collapsed accordian-link1" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                Will there be any hidden or surprise charges involved?
+            </a>
+          </h4>
+    
+            </div>
+            <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+                <div class="panel-body"><p>Worry not for there will be no hidden or surprise charges involved because we don’t want you to end up paying exorbitantly high. We are a software development company that runs a transparent business model in which you will be aware of the total development costs.</p> </div>
+            </div>
+        </div>
+        <!-- 9 Nine -->
+        <div class="panel panel-default b-1">
+            <div class="panel-heading mypanel" role="tab" id="headingNine">
+                 <h4 class="panel-title">
+            <a class="collapsed accordian-link1" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                What terms are included in a typical contract with Nextbridge?
+            </a>
+          </h4>
+    
+            </div>
+            <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+                <div class="panel-body"><p>A software contract is the written agreement between you and Nextbridge that lays out each party’s obligations concerning the software. The NDA includes the following core elements:</p> 
+                    <ul style="list-style-type: disc;">
+                        <li class="faq-list">Usage & Restriction</li>
+                        <li class="faq-list">Ownership</li>
+                        <li class="faq-list">Terms & Termination</li>
+                        <li class="faq-list">Fees & Payment</li>
+                        <li class="faq-list">Indemnification</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 10 Ten -->
+        <div class="panel panel-default b-1">
+            <div class="panel-heading mypanel" role="tab" id="headingTen">
+                 <h4 class="panel-title">
+            <a class="collapsed accordian-link1" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                What technologies does Nextbridge cater to?
+            </a>
+          </h4>
+    
+            </div>
+            <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
+                <div class="panel-body"><p>It doesn’t matter how much technical knowledge you have. If something is unclear or ambiguous, we will explain it to you.</p> </div>
+            </div>
+        </div>
+        <!-- 11 Eleven -->
+        <div class="panel panel-default b-1">
+            <div class="panel-heading mypanel" role="tab" id="headingEleven">
+                 <h4 class="panel-title">
+            <a class="collapsed accordian-link1" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                Are there post-development services offered by Nextbridge?
+            </a>
+          </h4>
+    
+            </div>
+            <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
+                <div class="panel-body"><p>It doesn’t matter how much technical knowledge you have. If something is unclear or ambiguous, we will explain it to you.</p> </div>
+            </div>
+        </div>
+    </div>
+    <!-- </div> -->
+    <!-- </div> -->
+    </div>
+    
+    <div class="footer">
+        <div class="container1 footer-sub flex">
+            <div class="overview footer-width flex">
+                <h5>Company Overview</h5>
+                <p class="overview-desc">Founded in 1993, Nextbridge provides cutting-edge digital solutions to help startups, small, medium, and large companies transform their operations.</p>
+            </div>
+            <div class="partner footer-width flex">
+                <h5>Service Partners</h5>
+                <p class="overview-desc">Nextbridge Institute</p>
+            </div>
+            <div class="links footer-width flex">
+                <h5>Useful Links</h5>
+                <ul>
+                    <li class="overview-desc">Company</li>
+                    <li class="overview-desc">Meet the team</li>
+                    <li class="overview-desc">Industries</li>
+                    <li class="overview-desc"> Technologies</li>
+                    <li class="overview-desc">Careers</li>
+                </ul>
+            </div>
+            <div class="p-info footer-width flex">
+                <div class="logo">
+                    <img src="assets/asset 0.svg" class="logo-img1" alt="">
+                </div>
+                <p class="overview-desc">
+                    427/428 G-IV Block, M.A. Johar Town, Lahore
+                </p>
+                <ul>
+                    <li class="overview-desc">For Business Inquiries:</li>
+                    <li class="overview-desc">sales@nextbridge.com</li>
+                </ul>
+                <ul>
+                    <li class="overview-desc">For Job Applications:</li>
+                    <li class="overview-desc">careers@nextbridge.com</li>
+                </ul>
+                <div class="iso-img">
+                    <img src="assets/asset 21.png" alt="">
+                    <img src="assets/asset 22.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer container1">
+            <hr style="  background-color: aliceblue;">
+        </div>
+          <div class="bottom-footer1 container1 flex">  
+            <div class="copy-right">
+                <p class="copyright-text">Copyright © 2022, Nextbridge. All Rights Reserved.</p>
+            </div>
+            <div class="policy">
+                <a href="" class="policy-tag"><span>Privacy Policy</span></a> | <a href="" class="policy-tag"><span>IMS Policy</span></a>
+            </div>
+            <div class="social-links flex">
+                <div class="social-back">
+                <img class="social-img" src="assets/asset 38.svg" alt="">
+                </div>
+                <div class="social-back">
+                <img class="social-img"  src="assets/asset 39.svg" alt="">
+                </div>
+                <div class="social-back">
+                <img class="social-img"  src="assets/asset 40.svg" alt="">
+                </div>
+                <div class="social-back">
+                <img class="social-img"  src="assets/asset 41.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="spacer container1">
+            <div class="heading-footer">
+                <h3 class="heading2-head">We Are Your Next Bridge</h3>
+                <a href="" class="second-btn" type="button"> Let's Go!</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
